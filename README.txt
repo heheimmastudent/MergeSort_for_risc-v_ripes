@@ -1,6 +1,6 @@
 # RISC-V Ripes MergeSort Algorithm
 
-This repository contains two implementations of the MergeSort algorithm in RISC-V assembly. Tested for RISC-V 32-bit Single-cycle processor only.
+This repository contains two implementations of the MergeSort algorithm in RISC-V assembly. Tested for RISC-V 32-bit Single-cycle processor on Ripes simulator only.
 
 ## Description
 
@@ -33,8 +33,8 @@ These test cases help validate the correctness and robustness of the algorithm.
 
 ## Authorship
 
-- The assembly code for both implementations was designed and implemented by SpyceePlastic.
-- Minor formatting and text replacement were done with the assistance of ChatGPT.
+- The assembly code for both implementations was designed and implemented by Ritvik Raiker.
+- Minor formatting and commenting were done with the assistance of ChatGPT.
 
 ## License
 
