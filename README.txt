@@ -1,6 +1,6 @@
 # RISC-V Ripes MergeSort Algorithm
 
-This is a simple RISC-V assembly implementation of the MergeSort algorithm using the Ripes simulator. The code was created with minimal assistance from ChatGPT, focusing on formatting and text replacement, while the logic and algorithm design were independently implemented.
+This is a simple and very primitive RISC-V assembly implementation of the MergeSort algorithm using the Ripes simulator. The code was created with minimal assistance from ChatGPT, focusing on formatting and for writing comments for the code, while the logic and algorithm design were independently implemented by me.
 
 ## Description
 
@@ -12,7 +12,7 @@ The MergeSort algorithm is a divide-and-conquer sorting algorithm that efficient
 2. Load the assembly code into Ripes.
 3. Compile and run the code to see the MergeSort algorithm in action.
 4. Output will be present in the same data location as the input.
-[NOTE: Intermediary spaces were used at addresses 0x05000000 and 0x02500000 (addresses are chosen arbitrarily) to initialise and act as Auxiliary spaces.]
+[NOTE: In file 'mergeSort_risc-v.s', Intermediary spaces were used at addresses 0x05000000 and 0x02500000 (addresses are chosen arbitrarily) to initialise and act as Auxiliary spaces. A complete and only stack based (auxiliary space) implementation is available in 'MergeSort_recursive_ultra.s' file.]
 ## Test Cases
 
 The code includes various test cases to ensure that the MergeSort algorithm works as expected. These test cases cover different scenarios, such as:
