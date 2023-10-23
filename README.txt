@@ -8,9 +8,9 @@ The MergeSort algorithm is a divide-and-conquer sorting algorithm that efficient
 
 ### File Descriptions
 
-- `mergeSort_risc-v.s`: This was the initial implementation of the MergeSort algorithm. It uses intermediary spaces at addresses 0x05000000 and 0x02500000 for auxiliary space. This implementation may not be the most efficient in terms of space management.
+- `mergeSort_naive.s`: This was the initial implementation of the MergeSort algorithm. It uses intermediary spaces at addresses 0x05000000 and 0x02500000 for auxiliary space. This implementation may not be the most efficient in terms of space management.
 
-- `MergeSort_recursive_ultra.s`: This is the latest version of the MergeSort algorithm. It utilizes only stack space and does not rely on external auxiliary space. This implementation is more space-efficient and should be preferred over the early version.
+- `mergeSort_improved.s`: This is the latest version of the MergeSort algorithm. It utilizes only stack space and does not rely on external auxiliary space. This implementation is more space-efficient and should be preferred over the early version.
 
 ## Usage
 
