@@ -26,7 +26,7 @@ mergesort:
     srli t1, t1, 1            # t1 = t1 / 2 (calculate mid)
     sw t1, 8(sp)              # Store mid on the stack
     sub t2, a1, t1            # t2 = a1 - t1 (calculate n - mid)
-    sw t2, 0(sp)
+    sw t2, 0(sp)              # Store n - mid on the stack
     slli t1, t1, 2            # Shift left by 2 (multiply by 4 for byte indexing)
     slli t2, t2, 2            # Shift left by 2 (multiply by 4 for byte indexing)
     sub a2, a2, t1            # Allocate space for left[mid]
